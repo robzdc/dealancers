@@ -1,0 +1,38 @@
+<div class="page-header">
+  <h1>Fotos <small>Selecciona tus albums o fotos</small></h1>
+</div>
+<label class="checkbox">
+      <input type="checkbox" id="checkall">All Albums
+</label>
+<button class="btn btn-large btn-primary" type="button">Create deal!</button>
+
+<div id="albums">
+  <% @photos.each do |album| %>
+    <% if album['name'] != 'Profile Pictures' && album['name'] != 'Cover Photos' && album['name'] != 'Timeline Photos'%>
+      
+          
+          <label class="checkbox">
+            <input type="checkbox" class="checkAlbum" id="<%=album['id']%>">
+            <h4><%= album['name'] %></h4>
+          </label>
+
+          <div class="row-fluid">
+            <ul class="thumbnails">
+              <% album['photos']['data'].each do |photo| %>
+              <li class="span2">
+                <div class="thumbnail">
+                  <label class="checkbox">
+                        <input type="checkbox" id="<%=album['id']+'-'+photo['id']%>"></label>
+                        <img src="<%= photo['picture'] %>" alt="">
+                  <div class="caption">
+                  <p><%= photo['name'] %></p>
+                  </div>
+                </div>
+              </li> 
+              <% end %>
+            </ul>    
+          </div>     
+
+    <% end %>
+  <% end %>
+</div>

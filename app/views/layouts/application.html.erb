@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dealancers</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <%= link_to "Dealancers", root_url, :class => "brand" %>
+          <div class="nav-collapse collapse">
+            
+
+              <ul class="nav">
+                <li>
+                  <%= link_to 'Unirme!', addme_path%>
+                </li>
+                <li>
+                  <form class="form-search">
+  <div class="input-append">
+    <input type="text" class="span2 search-query">
+    <button type="submit" class="btn">Search</button>
+  </div>
+</form>
+                </li>
+                 <li>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                </li>
+                <li>
+                <% if current_user %>
+                    <%= image_tag("http://graph.facebook.com/#{current_user.uid}/picture?type=square", :size => "40x40") %><strong><%= current_user.name %></strong>
+                  <% else %>
+                    <%= link_to "Entrar con Facebook", "/auth/facebook", id: "sign_in" %>
+                  <% end %>
+                </li>
+
+                <li>
+                <% if current_user %>
+                  <%= link_to "Salir", signout_path, id: "sign_out" %>
+                <% end %>
+                </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <!--<div class="span2 pull-right">
+      Sidebar content
+    </div>-->
+    <div class="span10">
+      <%= yield %>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

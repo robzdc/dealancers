@@ -1,0 +1,681 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"top",
+				"padding-top"
+			],
+			[
+				"get",
+				"get_object"
+			],
+			[
+				"fa",
+				"facebook_feed"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"in",
+				"inspect"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"f",
+				"font"
+			],
+			[
+				"s",
+				"style	Tag"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"Pro",
+				"Producto"
+			],
+			[
+				"pro",
+				"producto_details"
+			],
+			[
+				"lin",
+				"linp	link_to (nested path)"
+			],
+			[
+				"if",
+				"if	if condition"
+			],
+			[
+				"be",
+				"before_filter"
+			],
+			[
+				"i",
+				"if	if … end"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"co",
+				"correo"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"cont",
+				"contacto"
+			],
+			[
+				"link",
+				"link_to"
+			],
+			[
+				"id",
+				"id=  (attribute)"
+			],
+			[
+				"so",
+				"solid  (value)"
+			],
+			[
+				"td",
+				"td"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"ub",
+				"ubicacion_details"
+			],
+			[
+				"produ",
+				"producto"
+			],
+			[
+				"inp",
+				"inputs"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"produc",
+				"products"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/controllers/addme_controller.rb",
+			"settings":
+			{
+				"buffer_size": 2601,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/addme/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 1510,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/home_controller.rb",
+			"settings":
+			{
+				"buffer_size": 827,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/home/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 1375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 1851,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div class=\"navbar\">\n  <div class=\"navbar-inner\">\n    <%= link_to \"Dealancers\", root_url, :class => \"brand\" %>\n  <ul class=\"nav\">\n  <li>\n  	<%= button_to 'Unirme!', addme_path, :class => \"btn btn-info\" %>\n  </li>\n  <li>\n  	<form class=\"navbar-search pull-left\">\n  <input type=\"text\" class=\"search-query\" placeholder=\"Buscar\">\n</form>\n  </li>\n  <li>\n	<% if current_user %>\n    	<%= image_tag(\"http://graph.facebook.com/#{current_user.uid}/picture?type=square\", :size => \"24x24\") %><strong><%= current_user.name %></strong>\n  	<% else %>\n    	<%= link_to \"Entrar con Facebook\", \"/auth/facebook\", id: \"sign_in\" %>\n  	<% end %>\n  </li>\n  <li>\n<% if current_user %>\n    <%= link_to \"Salir\", signout_path, id: \"sign_out\" %>\n  <% end %>\n  </li>\n</ul>\n  </div>\n</div>",
+			"settings":
+			{
+				"buffer_size": 759,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/application.css",
+			"settings":
+			{
+				"buffer_size": 574,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Preferences: Browse Packages"
+			],
+			[
+				"s",
+				"Stackoverflow: Search from Input"
+			],
+			[
+				"se",
+				"Set Syntax: Ruby on Rails"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/NO NAME/Nintendo 3DS/31f9822106af8a54851b6092dcf1e4dc/372c00c83110bc0a3030303000284245/dbs/title.db",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/assets/javascripts/application.js",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/assets/javascripts/home.js.coffee",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/assets/javascripts/jquery.masonry.min.js",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/assets/stylesheets/bootstrap_and_overrides.css.less",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/assets/stylesheets/application.css",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/models/photo.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/db/migrate/20121115063641_create_photos.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/uploaders/image_uploader.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/Gemfile",
+		"/Users/rome3ro/Developments/Sites/dealancers/db/migrate/20121103225027_create_users.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/models/user.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/config/initializers/omniauth.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/assets/javascripts/facebook.js.coffee.erb",
+		"/Users/rome3ro/Developments/Sites/dealancers/config/routes.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/controllers/facebook_controller.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/views/layouts/application.html.erb",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/controllers/application_controller.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/models/deal.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/views/addme/index.html.erb copy",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/assets/javascripts/addme.js.coffee",
+		"/Users/rome3ro/Developments/Sites/dealancers/config/environments/production.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/controllers/sessions_controller.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/views/addme/index.html.erb",
+		"/Users/rome3ro/Developments/Sites/dealancers/config/initializers/secret_token.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/config/initializers/session_store.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/config/environment.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/helpers/application_helper.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/config/environments/development.rb",
+		"/Users/rome3ro/Developments/Sites/dealancers/config/database.yml",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/assets/stylesheets/application.less",
+		"/Users/rome3ro/Developments/Sites/dealancers/app/views/layouts/application.html.erb.bkp.html",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/admin/contactos.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/views/producto/index.html.erb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/controllers/producto_controller.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/models/producto.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/javascripts/application.js",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/views/home/index.html.erb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/Gemfile",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/stylesheets/style.css",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/config/database.yml",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/config/environments/production.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/config/environments/development.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/stylesheets/tinybox.css",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/views/producto/index.html.erb.bkp.rhtml",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/stylesheets/tinybox/style.css",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/config/application.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/config/initializers/active_admin.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/stylesheets/application.css",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/config/routes.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/javascripts/admin/active_admin.js",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/javascripts/active_admin.js",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/stylesheets/active_admin.css.scss",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/stylesheets/admin/active_admin.css.scss",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/controllers/application_controller.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/vendor/assets/stylesheets/active_admin.css.scss",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/admin/homes.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/admin/acercas.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/admin/ubicacions.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/config/initializers/devise.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/views/ubicacion/index.html.erb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/views/contacto/index.html.erb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/views/acerca/index.html.erb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/admin/productos.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/admin/product_categories.rb",
+		"/Users/rome3ro/Developments/Sites/parrilladaschepin/parrilladaschepin.sublime-project",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/models/producto_detail.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/vendor/assets/javascripts/active_admin.js",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/models/product_category.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/stylesheets/superfish.css",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/stylesheets/skeleton.css",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/stylesheets/jquery.fancybox-1.3.4.css",
+		"/Users/rome3ro/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/admin/correos.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/config/locales/en.yml",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/config/locales/es.yml",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/javascripts/contacto.js.coffee",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/javascripts/contactos.js.coffee",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/views/acercas/index.html.erb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/views/acercas/_form.html.erb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/models/correo.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/controllers/contacto_controller.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/config/initializers/i18n.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/lib/active_admin/locales/en.yml",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/mailers/user_mailer.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/views/user_mailer/contacto_email.html.erb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/controllers/contactos_controller.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/controllers/acercas_controller.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/db/migrate/20120709020010_create_correos.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/controllers/acerca_clientes_controller.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/models/contacto.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/models/home.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/views/layouts/application.html.erb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/controllers/acerca_controller.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/models/acerca.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/controllers/ubicacion_controller.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/models/ubicacion_detail.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/models/ubicacion.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/db/seeds.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/models/ultima_instalacion.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/uploaders/photo_uploader.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/models/acerca_cliente.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/db/migrate/20120627060851_create_acerca_clientes.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/db/migrate/20120627060930_create_ultima_instalacions.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/javascripts/producto.js.coffee",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/controllers/home_controller.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/stylesheets/home.css.scss",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/stylesheets/homes.css.scss",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/assets/stylesheets/scaffolds.css.scss",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/controllers/homes_controller.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/controllers/productos_controller.rb",
+		"/Users/rome3ro/Developments/Sites/lacasadeltortillero/app/admin/dashboards.rb",
+		"/Users/rome3ro/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/rome3ro/Library/Application Support/Sublime Text 2/Packages/User/Ruby.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"box",
+			"\")",
+			"provider",
+			"'\n",
+			"background",
+			"figure",
+			"mixins",
+			"@import",
+			"after_sign_in_path_for",
+			"products",
+			"alpha",
+			"grid_24",
+			"js",
+			"map",
+			"}}",
+			"ultima_instalacions"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/addme_controller.rb",
+					"settings":
+					{
+						"buffer_size": 2601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2461,
+								2461
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 335.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/addme/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 1510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1237,
+								1257
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/home_controller.rb",
+					"settings":
+					{
+						"buffer_size": 827,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/home/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 1375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								267
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 1851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								855,
+								855
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								717,
+								717
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/assets/stylesheets/application.css",
+					"settings":
+					{
+						"buffer_size": 574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								573
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 315.0,
+	"status_bar_visible": true
+}

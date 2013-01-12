@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  deals_id: 1
+  fb_album_id: MyString
+  fb_photo_id: MyString
+
+two:
+  deals_id: 1
+  fb_album_id: MyString
+  fb_photo_id: MyString
