@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121124231636) do
+ActiveRecord::Schema.define(:version => 20121117221749) do
 
   create_table "categories", :force => true do |t|
     t.string   "name"
@@ -29,12 +29,11 @@ ActiveRecord::Schema.define(:version => 20121124231636) do
 
   create_table "photos", :force => true do |t|
     t.integer  "deal_id"
-    t.string   "fb_album_id"
     t.string   "fb_photo_id"
     t.string   "name"
+    t.string   "image"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
-    t.string   "image"
   end
 
   create_table "users", :force => true do |t|
@@ -45,7 +44,6 @@ ActiveRecord::Schema.define(:version => 20121124231636) do
     t.datetime "oauth_expires_at"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
-    t.string   "image"
   end
 
 end
